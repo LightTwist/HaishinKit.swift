@@ -13,12 +13,11 @@ let package = Package(
         .library(name: "HaishinKit", targets: ["HaishinKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/shogo4405/Logboard.git", from: "2.3.0")
+        
     ],
     targets: [
-        .target(name: "SwiftPMSupport"),
         .target(name: "HaishinKit",
-                dependencies: ["Logboard", "SwiftPMSupport"],
+                dependencies: [],
                 path: "Sources",
                 sources: [
                     "Codec",
