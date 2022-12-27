@@ -20,6 +20,11 @@ public class IOMixer {
         case video
         case passthrough
     }
+    
+    
+    public init() {
+        
+    }
 
     #if os(iOS) || os(macOS)
     var isMultitaskingCameraAccessEnabled = true
