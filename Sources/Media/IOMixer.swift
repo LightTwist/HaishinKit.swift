@@ -1,4 +1,5 @@
 import AVFoundation
+import UIKit
 
 #if os(iOS) || os(macOS)
 extension AVCaptureSession.Preset {
